@@ -1,4 +1,4 @@
-package comportamiento.state;
+package comportamiento.state.semaforo;
 
 public class EstadoAmarillo implements EstadoSemaforo {
     @Override

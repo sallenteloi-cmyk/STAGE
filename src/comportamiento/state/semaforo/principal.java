@@ -1,6 +1,6 @@
-package comportamiento.state;
+package comportamiento.state.semaforo;
 
-public class Principal {
+public class principal {
     public static void main(String[] args) {
         Semaforo s = new Semaforo();
 

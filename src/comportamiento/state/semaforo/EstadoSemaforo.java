@@ -1,4 +1,4 @@
-package comportamiento.state;
+package comportamiento.state.semaforo;
 
 /**
  * Aquí indicamos que cada estado debe saber:
