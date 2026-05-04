@@ -8,16 +8,8 @@ public class Principal {
         String tipoPlan = "Musculación";
         double cuotaMensual = 39.99;
 
-        ServicioSocios servicioSocios = new ServicioSocios();
-        ServicioEntrenamiento servicioEntrenamiento = new ServicioEntrenamiento();
-        ServicioTarjeta servicioTarjeta = new ServicioTarjeta();
-        ServicioPago servicioPago = new ServicioPago();
-        ServicioNotificaciones servicioNotificaciones = new ServicioNotificaciones();
+        GimnasioFacade gimnasio = new GimnasioFacade();
 
-        servicioSocios.registrarSocio(nombre, dni);
-        servicioEntrenamiento.asignarPlan(nombre, tipoPlan);
-        servicioTarjeta.generarTarjeta(nombre);
-        servicioPago.activarPago(dni, cuotaMensual);
-        servicioNotificaciones.enviarBienvenida(nombre);
+        gimnasio.altaCompletaSocio(nombre, dni, tipoPlan, cuotaMensual);
     }
 }
