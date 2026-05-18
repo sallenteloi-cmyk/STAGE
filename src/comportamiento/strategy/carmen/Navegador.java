@@ -1,4 +1,4 @@
-package comportamiento.strategy;
+package comportamiento.strategy.carmen;
 
 /**
  * Clase que usa la estrategia.

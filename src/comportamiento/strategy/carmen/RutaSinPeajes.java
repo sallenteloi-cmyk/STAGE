@@ -1,9 +1,9 @@
-package comportamiento.strategy;
+package comportamiento.strategy.carmen;
 
 /**
  * Estrategia concreta.
  */
-public class RutaSinPeajes implements EstrategiaRuta{
+public class RutaSinPeajes implements EstrategiaRuta {
     @Override
     public String calcularRuta(String origen, String destino) {
         return "Ruta sin peajes desde " + origen + " hasta " + destino +
